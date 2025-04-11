@@ -1,0 +1,12 @@
+# LLM Configuration
+llm:
+
+  provider: "openai" # The LLM provider to use (e.g., "openai", "anthropic", etc.)
+  model: "gpt-4o-mini" # The specific model to use from the provider
+
+
+# aisuite configuration, see https://github.com/andrewyng/aisuite
+# aisuite:
+
+#   openai:
+#     api_key:
