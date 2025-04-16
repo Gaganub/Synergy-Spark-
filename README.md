@@ -129,7 +129,7 @@ agent = Agent.create_agent(
     age=28,
     occupation="Software Engineer",
     location="San Francisco",
-    bio="A passionate developer who loves AI"
+    bio="A passionate developer who loves AI" 
 )
 ```
 
