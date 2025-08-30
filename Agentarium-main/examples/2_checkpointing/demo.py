@@ -10,7 +10,7 @@ if __name__ == '__main__':
     # 1. Detect it's the same simulation (based on the "demo" identifier)
     # 2. Load cached results instead of re-running expensive LLM calls
     # 3. Skip redundant agent interactions that were already computed
-    checkpoint = CheckpointManager("demo")
+    checkpoint=CheckpointManager("demo")
 
     # Create two agents - their states will be tracked by the checkpoint manager
     # Even agent creation is cached - if these agents were created before,
